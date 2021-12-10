@@ -1,0 +1,82 @@
+body{
+    background-image: url(../img/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-image: url(../img/Fondo-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    color: rgb(212, 212, 212);
+}
+.center{
+    text-align: center;
+}
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.header_text{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+}
+.padre{
+    display: flex;
+    justify-content: center;
+}
+.titulos{
+    font-family: 'Gwendolyn', cursive;
+}
+.titulos1{
+    font-family: 'Gwendolyn', cursive;
+    font-size: 50px;
+}
+.texto{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.texto1{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 20px;
+}
+.icono{
+    font-size: 20px;
+}
+.imagen{
+    display:block;
+    margin:auto;
+}
+.father{
+    display: flex;
+}
+.son1{
+    width: 80%;
+}
+.son2{
+    width: 20%;
+    align-self: center;
+}
+.boton:hover{
+background-color:rgb(209, 255, 214);
+}
+.boton:active{
+    border: rgb(144, 212, 151) 2px outset;
+}
+.card{
+    width: 300px;
+}
+.padre2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
